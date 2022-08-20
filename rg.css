@@ -1,0 +1,158 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: myFirstFont;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background: url("log.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+
+.wrapper
+{
+	font-size: 30px;
+	font-family: myFirstFont;
+	width: 420px;
+	height: 450px;
+	color: #000;
+	top: 40%;
+	left: 50%;
+	padding: 20px 40px 20px 20px;
+	position: absolute;
+	margin-top: 0px;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	box-shadow: 8px 8px 50px #000;
+	border-radius: 15px;
+}
+
+form
+{
+	font-family: myFirstFont;
+	margin-top: 0px;
+	text-align: center;
+}
+
+input
+{
+	font-family: myFirstFont;
+	border: 0;
+	outline: 0;
+	display: block;
+	color:white;
+	width: 100px;
+	height: 30px;
+	margin: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-style: inset;
+	font-size: 20px;
+	border-bottom: 2px solid darkcyan;
+	background: transparent;
+}
+
+button
+{
+
+ 	border: 0;
+ 	font-family: myFirstFont;
+ 	height: 150px; 
+	width: 200px;
+	align-content: center;
+	height: 35px;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: darkcyan;
+	border-style: groove;
+	color: black;
+	margin-top: 0px;
+	border-radius: 12px;
+
+	border-bottom: 1px solid darkcyan;
+
+}
+
+::placeholder
+{
+	color: black;
+}
+
+h1
+{
+	font-family: myFirstFont;
+	margin: 0;
+	padding: 0;
+	font-size: 38px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	margin-bottom: 8%;
+}
+h3
+{
+	font-family: myFirstFont;
+	margin: 0;
+	padding: 0;
+	font-size: 38px;
+	font-weight: bold;
+	text-align: center;
+	color:darkcyan;
+	margin-bottom: 8%;
+}
+.wrapper input{
+	font-family: myFirstFont;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+.wrapper input[type=username],.wrapper input[type="email"],.wrapper input[type=password],.wrapper input[type=password]
+{
+	font-family: myFirstFont;
+	border: none;
+	border-bottom: 2px solid darkcyan;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	font-size: 20px;
+	opacity: 1;
+}
+p
+{
+	font-size: 20px;
+	font-family: myFirstFont;
+	text-align: center;
+	color:black;
+
+}
+a
+{
+	border: 0;
+ 	font-family: myFirstFont;
+ 	height: 150px; 
+	width: 500px;
+	align-content: center;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-style: groove;
+	color: black;
+	margin-top: 0px;
+	border-radius: 12px;
+}
+hr
+{
+	color: darkgoldenrod;
+	width:380px ;
+	border: 2px solid;
+
+}
+
+

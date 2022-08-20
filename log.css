@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-size: 120%;
+    background-image: url(log.jpg);
+    background-size: cover;
+  }
+  
+  .header {
+    font-family: myFirstFont;
+    width: 420px;
+    height: 40px;
+    margin: 50px auto 0px;
+    color: white;
+    background:transparent;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    box-sizing: border-box;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 450px;
+    height: 350px;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding: 20px;
+    background: transparent;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    box-shadow: 8px 8px 50px #000;
+    border-radius: 15px;
+  }
+  .input-group {
+      margin-top: 50px;
+  
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    
+      margin-top: 10px;
+      font-family: myFirstFont;
+      border: none;
+      color:black;
+      border-bottom: 2px solid darkcyan;
+      background: transparent;
+      outline: none;
+      width: 400px;
+      height: 30px;
+      font-size: 20px;
+      opacity: 1;
+  }
+  
+  .btn {
+      border: 0;
+      font-family: myFirstFont;
+      height: 150px; 
+     width: 350px;
+     align-content: center;
+     height: 35px;
+     font-size: 25px;
+     margin-left: 10px;
+     margin-right: 10px;
+     background-color: darkcyan;
+     border-style: groove;
+     color: white;
+     margin-top: 0px;
+     border-radius: 12px;
+  
+     border-bottom: 1px solid darkcyan;
+  }
+  
+  
+  hr
+  {
+      color: darkgoldenrod;
+      width:410px ;
+      border: 2px solid;
+  
+  }
+  h1
+  {
+      font-family: myFirstFont;
+      margin-top: 10px;
+      padding: 0;
+      font-size: 38px;
+      font-weight: bold;
+      text-align: center;
+      color:black;
+      margin-bottom: 8%;
+  }
+  
+  p
+  {
+      font-size: 20px;
+      font-family: myFirstFont;
+      text-align: center;
+      color:black;
+  
+  }
+  a
+  {
+      border: 0;
+       font-family: myFirstFont;
+       height: 150px; 
+      width: 500px;
+      align-content: center;
+      font-size: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-style: groove;
+      color: black;
+      margin-top: 0px;
+      border-radius: 12px;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+  
